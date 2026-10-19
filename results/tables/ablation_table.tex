@@ -1,0 +1,43 @@
+\begin{table}[t]
+\centering
+\caption{Ablation of CEGA-Tiny components.}
+\label{tab:ablation}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{llcccccc}
+\toprule
+Dataset & Method & Accuracy & Macro-F1 & Adapt. energy (mJ) & Updated (\%) & Violations & Recovery (win.) \\
+\midrule
+GasDrift & CEGA-Tiny & 0.847 $\pm$ 0.008 & 0.838 $\pm$ 0.010 & 10.29 $\pm$ 1.18 & 47.5 $\pm$ 3.4 & 0.0 $\pm$ 0.0 & 10.5 $\pm$ 1.5 \\
+GasDrift & CEGA-Lite & 0.845 $\pm$ 0.007 & 0.837 $\pm$ 0.008 & 8.66 $\pm$ 0.56 & 44.7 $\pm$ 3.9 & 0.0 $\pm$ 0.0 & 10.9 $\pm$ 2.5 \\
+GasDrift & CEGA-noGate & 0.841 $\pm$ 0.014 & 0.832 $\pm$ 0.014 & 18.49 $\pm$ 0.62 & 100.0 $\pm$ 0.0 & 0.0 $\pm$ 0.0 & 10.6 $\pm$ 1.4 \\
+GasDrift & CEGA-noBurst & 0.844 $\pm$ 0.007 & 0.836 $\pm$ 0.008 & 9.06 $\pm$ 0.53 & 47.5 $\pm$ 3.6 & 0.0 $\pm$ 0.0 & 11.0 $\pm$ 1.9 \\
+GasDrift & CEGA-noSoC & 0.844 $\pm$ 0.004 & 0.836 $\pm$ 0.005 & 8.48 $\pm$ 0.68 & 34.6 $\pm$ 2.3 & 0.0 $\pm$ 0.0 & 10.1 $\pm$ 2.7 \\
+GasDrift & CEGA-noEntropy & 0.859 $\pm$ 0.007 & 0.852 $\pm$ 0.008 & 11.77 $\pm$ 1.53 & 44.1 $\pm$ 3.9 & 0.0 $\pm$ 0.0 & 9.9 $\pm$ 1.6 \\
+GasDrift & CEGA-HeadOnly & 0.769 $\pm$ 0.021 & 0.760 $\pm$ 0.023 & 6.13 $\pm$ 1.14 & 55.5 $\pm$ 2.4 & 0.0 $\pm$ 0.0 & 9.7 $\pm$ 2.0 \\
+\midrule
+UCI-HAR & CEGA-Tiny & 0.892 $\pm$ 0.007 & 0.889 $\pm$ 0.007 & 11.11 $\pm$ 5.52 & 17.1 $\pm$ 4.4 & 0.0 $\pm$ 0.0 & 1.4 $\pm$ 0.6 \\
+UCI-HAR & CEGA-Lite & 0.894 $\pm$ 0.005 & 0.890 $\pm$ 0.004 & 8.75 $\pm$ 0.70 & 15.4 $\pm$ 1.9 & 0.0 $\pm$ 0.0 & 1.6 $\pm$ 0.6 \\
+UCI-HAR & CEGA-noGate & 0.892 $\pm$ 0.006 & 0.889 $\pm$ 0.006 & 40.13 $\pm$ 1.78 & 100.0 $\pm$ 0.0 & 0.0 $\pm$ 0.0 & 1.6 $\pm$ 0.9 \\
+UCI-HAR & CEGA-noBurst & 0.894 $\pm$ 0.005 & 0.890 $\pm$ 0.004 & 8.91 $\pm$ 0.77 & 15.9 $\pm$ 2.0 & 0.0 $\pm$ 0.0 & 1.5 $\pm$ 0.6 \\
+UCI-HAR & CEGA-noSoC & 0.892 $\pm$ 0.005 & 0.889 $\pm$ 0.005 & 8.60 $\pm$ 2.36 & 13.8 $\pm$ 1.8 & 0.0 $\pm$ 0.0 & 1.4 $\pm$ 0.6 \\
+UCI-HAR & CEGA-noEntropy & 0.892 $\pm$ 0.007 & 0.889 $\pm$ 0.007 & 10.76 $\pm$ 5.17 & 16.1 $\pm$ 3.4 & 0.0 $\pm$ 0.0 & 1.4 $\pm$ 0.6 \\
+UCI-HAR & CEGA-HeadOnly & 0.879 $\pm$ 0.006 & 0.874 $\pm$ 0.007 & 5.83 $\pm$ 3.89 & 20.5 $\pm$ 2.0 & 0.0 $\pm$ 0.0 & 2.7 $\pm$ 0.7 \\
+\midrule
+Elec2 & CEGA-Tiny & 0.731 $\pm$ 0.011 & 0.723 $\pm$ 0.013 & 13.71 $\pm$ 0.55 & 73.6 $\pm$ 3.9 & 0.0 $\pm$ 0.0 & -- \\
+Elec2 & CEGA-Lite & 0.729 $\pm$ 0.010 & 0.721 $\pm$ 0.011 & 10.92 $\pm$ 0.61 & 59.1 $\pm$ 3.4 & 0.0 $\pm$ 0.0 & -- \\
+Elec2 & CEGA-noGate & 0.730 $\pm$ 0.014 & 0.721 $\pm$ 0.016 & 17.99 $\pm$ 0.68 & 100.0 $\pm$ 0.0 & 0.0 $\pm$ 0.0 & -- \\
+Elec2 & CEGA-noBurst & 0.731 $\pm$ 0.011 & 0.723 $\pm$ 0.013 & 12.81 $\pm$ 0.68 & 71.7 $\pm$ 3.9 & 0.0 $\pm$ 0.0 & -- \\
+Elec2 & CEGA-noSoC & 0.729 $\pm$ 0.010 & 0.721 $\pm$ 0.011 & 12.75 $\pm$ 0.38 & 66.5 $\pm$ 2.1 & 0.0 $\pm$ 0.0 & -- \\
+Elec2 & CEGA-noEntropy & 0.732 $\pm$ 0.013 & 0.724 $\pm$ 0.015 & 17.17 $\pm$ 1.85 & 68.2 $\pm$ 8.3 & 0.0 $\pm$ 0.0 & -- \\
+Elec2 & CEGA-HeadOnly & 0.705 $\pm$ 0.020 & 0.695 $\pm$ 0.022 & 5.00 $\pm$ 0.70 & 77.5 $\pm$ 4.1 & 0.0 $\pm$ 0.0 & -- \\
+\midrule
+CoverType & CEGA-Tiny & 0.831 $\pm$ 0.004 & 0.657 $\pm$ 0.009 & 30.45 $\pm$ 2.88 & 57.1 $\pm$ 2.0 & 0.0 $\pm$ 0.0 & -- \\
+CoverType & CEGA-Lite & 0.833 $\pm$ 0.004 & 0.665 $\pm$ 0.013 & 24.69 $\pm$ 0.94 & 51.2 $\pm$ 2.1 & 0.0 $\pm$ 0.0 & -- \\
+CoverType & CEGA-noGate & 0.829 $\pm$ 0.004 & 0.655 $\pm$ 0.011 & 47.65 $\pm$ 2.09 & 100.0 $\pm$ 0.0 & 0.0 $\pm$ 0.0 & -- \\
+CoverType & CEGA-noBurst & 0.833 $\pm$ 0.004 & 0.665 $\pm$ 0.013 & 26.54 $\pm$ 0.76 & 55.8 $\pm$ 1.7 & 0.0 $\pm$ 0.0 & -- \\
+CoverType & CEGA-noSoC & 0.831 $\pm$ 0.004 & 0.658 $\pm$ 0.010 & 23.25 $\pm$ 3.02 & 41.3 $\pm$ 4.4 & 0.0 $\pm$ 0.0 & -- \\
+CoverType & CEGA-noEntropy & 0.832 $\pm$ 0.002 & 0.661 $\pm$ 0.017 & 28.72 $\pm$ 1.48 & 52.8 $\pm$ 1.9 & 0.0 $\pm$ 0.0 & -- \\
+CoverType & CEGA-HeadOnly & 0.797 $\pm$ 0.008 & 0.616 $\pm$ 0.019 & 16.14 $\pm$ 1.44 & 66.9 $\pm$ 3.8 & 0.0 $\pm$ 0.0 & -- \\
+\bottomrule
+\end{tabular}}
+\end{table}

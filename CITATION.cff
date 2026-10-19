@@ -1,0 +1,52 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the article below and this archive."
+title: "CEGA-Tiny: simulation code and results"
+authors:
+  - family-names: Kumar
+    given-names: Anoop
+    orcid: "https://orcid.org/0000-0002-4290-9349"
+    affiliation: "Banasthali Vidyapith"
+  - family-names: Nezami
+    given-names: Mohammad Mazhar
+    orcid: "https://orcid.org/0000-0001-7618-8124"
+    affiliation: "University of Bisha"
+  - family-names: Hashem
+    given-names: Hythem
+    affiliation: "University of Bisha"
+  - family-names: Kaushik
+    given-names: Yogita
+    affiliation: "Karnavati University"
+  - family-names: Pandey
+    given-names: Satish Chandra
+    orcid: "https://orcid.org/0000-0002-3813-6726"
+    affiliation: "Jaipur National University"
+  - family-names: Goyal
+    given-names: Manish Kumar
+    orcid: "https://orcid.org/0009-0001-6768-2860"
+    affiliation: "Vivekananda Global University"
+  - family-names: Kumar
+    given-names: Manjeet
+    affiliation: "Banasthali Vidyapith"
+license: MIT
+version: "1.0"
+date-released: "2026-10-19"
+# doi: "10.5281/zenodo.XXXXXXX"   # fill in after the Zenodo deposit is published
+preferred-citation:
+  type: article
+  title: "CEGA-Tiny: A Confidence-Gated, Energy-Governed Controller for On-Device Learning under Concept Drift (A Trace-Driven Simulation Study)"
+  authors:
+    - family-names: Kumar
+      given-names: Anoop
+    - family-names: Nezami
+      given-names: Mohammad Mazhar
+    - family-names: Hashem
+      given-names: Hythem
+    - family-names: Kaushik
+      given-names: Yogita
+    - family-names: Pandey
+      given-names: Satish Chandra
+    - family-names: Goyal
+      given-names: Manish Kumar
+    - family-names: Kumar
+      given-names: Manjeet
+  journal: "Journal of Systems Architecture (submitted)"

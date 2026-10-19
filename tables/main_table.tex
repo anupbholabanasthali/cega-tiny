@@ -1,0 +1,51 @@
+\begin{table}[t]
+\centering
+\caption{Prequential results (mean $\pm$ sample s.d. over five seeds) at the default energy budget.}
+\label{tab:main}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{llcccccc}
+\toprule
+Dataset & Method & Accuracy & Macro-F1 & Adapt. energy (mJ) & Updated (\%) & Violations & Recovery (win.) \\
+\midrule
+GasDrift & Static & 0.572 $\pm$ 0.033 & 0.541 $\pm$ 0.041 & 0.00 $\pm$ 0.00 & 0.0 $\pm$ 0.0 & 0.0 $\pm$ 0.0 & 7.4 $\pm$ 1.8 \\
+GasDrift & Online-SGD & 0.834 $\pm$ 0.010 & 0.826 $\pm$ 0.011 & 16.77 $\pm$ 0.13 & 100.0 $\pm$ 0.0 & 0.0 $\pm$ 0.0 & 11.0 $\pm$ 1.8 \\
+GasDrift & TinyOL-Head & 0.683 $\pm$ 0.044 & 0.668 $\pm$ 0.045 & 6.58 $\pm$ 0.06 & 100.0 $\pm$ 0.0 & 0.0 $\pm$ 0.0 & 10.6 $\pm$ 3.0 \\
+GasDrift & RandomSkip & 0.813 $\pm$ 0.015 & 0.805 $\pm$ 0.016 & 9.33 $\pm$ 0.52 & 47.7 $\pm$ 3.6 & 0.0 $\pm$ 0.0 & 9.9 $\pm$ 3.4 \\
+GasDrift & Periodic-Full & 0.862 $\pm$ 0.007 & 0.856 $\pm$ 0.007 & 73.68 $\pm$ 0.06 & 0.0 $\pm$ 0.0 & 0.4 $\pm$ 0.5 & 9.9 $\pm$ 3.5 \\
+GasDrift & DriftTrig-Full & 0.819 $\pm$ 0.026 & 0.813 $\pm$ 0.025 & 27.04 $\pm$ 3.37 & 0.0 $\pm$ 0.0 & 0.0 $\pm$ 0.0 & 7.5 $\pm$ 0.8 \\
+GasDrift & GovRetrain & 0.762 $\pm$ 0.057 & 0.754 $\pm$ 0.056 & 17.32 $\pm$ 2.51 & 0.0 $\pm$ 0.0 & 0.0 $\pm$ 0.0 & 5.9 $\pm$ 2.3 \\
+GasDrift & CEGA-Tiny & 0.847 $\pm$ 0.008 & 0.838 $\pm$ 0.010 & 10.29 $\pm$ 1.18 & 47.5 $\pm$ 3.4 & 0.0 $\pm$ 0.0 & 10.5 $\pm$ 1.5 \\
+GasDrift & CEGA-Lite & 0.845 $\pm$ 0.007 & 0.837 $\pm$ 0.008 & 8.66 $\pm$ 0.56 & 44.7 $\pm$ 3.9 & 0.0 $\pm$ 0.0 & 10.9 $\pm$ 2.5 \\
+\midrule
+UCI-HAR & Static & 0.863 $\pm$ 0.013 & 0.855 $\pm$ 0.015 & 0.00 $\pm$ 0.00 & 0.0 $\pm$ 0.0 & 0.0 $\pm$ 0.0 & 4.0 $\pm$ 0.8 \\
+UCI-HAR & Online-SGD & 0.893 $\pm$ 0.005 & 0.890 $\pm$ 0.005 & 39.29 $\pm$ 0.43 & 100.0 $\pm$ 0.0 & 0.0 $\pm$ 0.0 & 1.6 $\pm$ 0.9 \\
+UCI-HAR & TinyOL-Head & 0.883 $\pm$ 0.010 & 0.879 $\pm$ 0.010 & 16.10 $\pm$ 0.21 & 100.0 $\pm$ 0.0 & 0.0 $\pm$ 0.0 & 3.1 $\pm$ 0.9 \\
+UCI-HAR & RandomSkip & 0.885 $\pm$ 0.007 & 0.880 $\pm$ 0.007 & 10.99 $\pm$ 1.80 & 17.3 $\pm$ 4.3 & 0.0 $\pm$ 0.0 & 2.8 $\pm$ 0.4 \\
+UCI-HAR & Periodic-Full & 0.885 $\pm$ 0.008 & 0.882 $\pm$ 0.008 & 167.57 $\pm$ 0.21 & 0.0 $\pm$ 0.0 & 0.0 $\pm$ 0.0 & 1.8 $\pm$ 0.4 \\
+UCI-HAR & DriftTrig-Full & 0.865 $\pm$ 0.009 & 0.860 $\pm$ 0.008 & 33.55 $\pm$ 18.76 & 0.0 $\pm$ 0.0 & 0.0 $\pm$ 0.0 & 2.6 $\pm$ 0.4 \\
+UCI-HAR & GovRetrain & 0.870 $\pm$ 0.004 & 0.864 $\pm$ 0.003 & 55.69 $\pm$ 30.00 & 0.0 $\pm$ 0.0 & 0.0 $\pm$ 0.0 & 2.5 $\pm$ 0.9 \\
+UCI-HAR & CEGA-Tiny & 0.892 $\pm$ 0.007 & 0.889 $\pm$ 0.007 & 11.11 $\pm$ 5.52 & 17.1 $\pm$ 4.4 & 0.0 $\pm$ 0.0 & 1.4 $\pm$ 0.6 \\
+UCI-HAR & CEGA-Lite & 0.894 $\pm$ 0.005 & 0.890 $\pm$ 0.004 & 8.75 $\pm$ 0.70 & 15.4 $\pm$ 1.9 & 0.0 $\pm$ 0.0 & 1.6 $\pm$ 0.6 \\
+\midrule
+Elec2 & Static & 0.615 $\pm$ 0.096 & 0.579 $\pm$ 0.089 & 0.00 $\pm$ 0.00 & 0.0 $\pm$ 0.0 & 0.0 $\pm$ 0.0 & -- \\
+Elec2 & Online-SGD & 0.730 $\pm$ 0.012 & 0.722 $\pm$ 0.014 & 17.08 $\pm$ 0.19 & 100.0 $\pm$ 0.0 & 0.0 $\pm$ 0.0 & -- \\
+Elec2 & TinyOL-Head & 0.695 $\pm$ 0.023 & 0.684 $\pm$ 0.024 & 5.45 $\pm$ 0.07 & 100.0 $\pm$ 0.0 & 0.0 $\pm$ 0.0 & -- \\
+Elec2 & RandomSkip & 0.726 $\pm$ 0.010 & 0.717 $\pm$ 0.012 & 13.11 $\pm$ 0.70 & 73.4 $\pm$ 4.3 & 0.0 $\pm$ 0.0 & -- \\
+Elec2 & Periodic-Full & 0.722 $\pm$ 0.013 & 0.701 $\pm$ 0.012 & 77.92 $\pm$ 0.02 & 0.0 $\pm$ 0.0 & 29.4 $\pm$ 0.5 & -- \\
+Elec2 & DriftTrig-Full & 0.702 $\pm$ 0.008 & 0.685 $\pm$ 0.013 & 31.56 $\pm$ 5.48 & 0.0 $\pm$ 0.0 & 0.0 $\pm$ 0.0 & -- \\
+Elec2 & GovRetrain & 0.653 $\pm$ 0.100 & 0.648 $\pm$ 0.098 & 33.42 $\pm$ 10.34 & 0.0 $\pm$ 0.0 & 0.0 $\pm$ 0.0 & -- \\
+Elec2 & CEGA-Tiny & 0.731 $\pm$ 0.011 & 0.723 $\pm$ 0.013 & 13.71 $\pm$ 0.55 & 73.6 $\pm$ 3.9 & 0.0 $\pm$ 0.0 & -- \\
+Elec2 & CEGA-Lite & 0.729 $\pm$ 0.010 & 0.721 $\pm$ 0.011 & 10.92 $\pm$ 0.61 & 59.1 $\pm$ 3.4 & 0.0 $\pm$ 0.0 & -- \\
+\midrule
+CoverType & Static & 0.692 $\pm$ 0.025 & 0.507 $\pm$ 0.021 & 0.00 $\pm$ 0.00 & 0.0 $\pm$ 0.0 & 0.0 $\pm$ 0.0 & -- \\
+CoverType & Online-SGD & 0.830 $\pm$ 0.005 & 0.662 $\pm$ 0.013 & 44.00 $\pm$ 0.39 & 100.0 $\pm$ 0.0 & 0.0 $\pm$ 0.0 & -- \\
+CoverType & TinyOL-Head & 0.784 $\pm$ 0.008 & 0.594 $\pm$ 0.016 & 16.55 $\pm$ 0.17 & 100.0 $\pm$ 0.0 & 0.0 $\pm$ 0.0 & -- \\
+CoverType & RandomSkip & 0.825 $\pm$ 0.003 & 0.651 $\pm$ 0.010 & 27.79 $\pm$ 0.91 & 56.9 $\pm$ 2.5 & 0.0 $\pm$ 0.0 & -- \\
+CoverType & Periodic-Full & 0.825 $\pm$ 0.005 & 0.601 $\pm$ 0.016 & 199.95 $\pm$ 0.04 & 0.0 $\pm$ 0.0 & 43.4 $\pm$ 0.5 & -- \\
+CoverType & DriftTrig-Full & 0.800 $\pm$ 0.015 & 0.607 $\pm$ 0.023 & 71.16 $\pm$ 10.45 & 0.0 $\pm$ 0.0 & 0.2 $\pm$ 0.4 & -- \\
+CoverType & GovRetrain & 0.772 $\pm$ 0.022 & 0.559 $\pm$ 0.023 & 66.18 $\pm$ 26.17 & 0.0 $\pm$ 0.0 & 0.0 $\pm$ 0.0 & -- \\
+CoverType & CEGA-Tiny & 0.831 $\pm$ 0.004 & 0.657 $\pm$ 0.009 & 30.45 $\pm$ 2.88 & 57.1 $\pm$ 2.0 & 0.0 $\pm$ 0.0 & -- \\
+CoverType & CEGA-Lite & 0.833 $\pm$ 0.004 & 0.665 $\pm$ 0.013 & 24.69 $\pm$ 0.94 & 51.2 $\pm$ 2.1 & 0.0 $\pm$ 0.0 & -- \\
+\bottomrule
+\end{tabular}}
+\end{table}

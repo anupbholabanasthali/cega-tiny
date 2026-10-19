@@ -1,0 +1,17 @@
+{
+  "title": "CEGA-Tiny: simulation code and results for confidence-gated, energy-governed on-device learning under concept drift",
+  "upload_type": "software",
+  "description": "Python notebooks, per-seed results, aggregate tables, figures and configuration behind the manuscript \"CEGA-Tiny: A Confidence-Gated, Energy-Governed Controller for On-Device Learning under Concept Drift (A Trace-Driven Simulation Study)\" (submitted to the Journal of Systems Architecture). All energy figures are operation-count model estimates; no hardware measurement was performed.",
+  "creators": [
+    {"name": "Kumar, Anoop", "affiliation": "Banasthali Vidyapith, India", "orcid": "0000-0002-4290-9349"},
+    {"name": "Nezami, Mohammad Mazhar", "affiliation": "University of Bisha, Saudi Arabia", "orcid": "0000-0001-7618-8124"},
+    {"name": "Hashem, Hythem", "affiliation": "University of Bisha, Saudi Arabia"},
+    {"name": "Kaushik, Yogita", "affiliation": "Karnavati University, India"},
+    {"name": "Pandey, Satish Chandra", "affiliation": "Jaipur National University, India", "orcid": "0000-0002-3813-6726"},
+    {"name": "Goyal, Manish Kumar", "affiliation": "Vivekananda Global University, India", "orcid": "0009-0001-6768-2860"},
+    {"name": "Kumar, Manjeet", "affiliation": "Banasthali Vidyapith, India"}
+  ],
+  "license": "MIT",
+  "keywords": ["TinyML", "on-device learning", "concept drift", "energy harvesting", "embedded software", "confidence gating", "trace-driven simulation"],
+  "access_right": "open"
+}

@@ -1,0 +1,57 @@
+sw,method,value,acc,E_adapt_mJ,violations,frac_updated
+delay,CEGA-Lite,0,0.8253,13.0757,0.0,0.5524
+delay,CEGA-Lite,1,0.8204,13.1844,0.0,0.5589
+delay,CEGA-Lite,3,0.8163,13.1341,0.0,0.5603
+delay,CEGA-Lite,5,0.8137,13.1962,0.0,0.5642
+delay,CEGA-Tiny,0,0.8256,15.7697,0.0,0.621
+delay,CEGA-Tiny,1,0.8218,15.2144,0.0,0.6088
+delay,CEGA-Tiny,3,0.818,15.5996,0.0,0.6159
+delay,CEGA-Tiny,5,0.8162,16.1301,0.0,0.6448
+delay,Online-SGD,0,0.8234,24.2286,0.0,1.0
+delay,Online-SGD,1,0.8193,24.1598,0.0,1.0
+delay,Online-SGD,3,0.8168,24.0122,0.0,1.0
+delay,Online-SGD,5,0.8149,23.8672,0.0,1.0
+delay,RandomSkip,0,0.8164,14.5557,0.0,0.6189
+delay,RandomSkip,1,0.8127,14.2782,0.0,0.6062
+delay,RandomSkip,3,0.8107,14.3943,0.0,0.6131
+delay,RandomSkip,5,0.8098,14.7924,0.0,0.6423
+int8,CEGA-Lite,0,0.8253,13.0757,0.0,0.5524
+int8,CEGA-Lite,8,0.8252,13.0652,0.0,0.5518
+int8,CEGA-Tiny,0,0.8256,15.7697,0.0,0.621
+int8,CEGA-Tiny,8,0.8263,15.6631,0.0,0.6199
+int8,Online-SGD,0,0.8234,24.2286,0.0,1.0
+int8,Online-SGD,8,0.8232,24.2286,0.0,1.0
+int8,RandomSkip,0,0.8164,14.5557,0.0,0.6189
+int8,RandomSkip,8,0.8164,14.5244,0.0,0.6175
+int8,Static,0,0.7182,0.0,0.0,0.0
+int8,Static,8,0.7186,0.0,0.0,0.0
+solar,CEGA-Lite,"('const', 0.1)",0.8234,10.4602,0.0,0.4146
+solar,CEGA-Lite,"('const', 0.25)",0.8252,12.7261,0.0,0.5327
+solar,CEGA-Lite,"('const', 0.5)",0.8253,13.0757,0.0,0.5524
+solar,CEGA-Lite,"('solar', 0.1)",0.824,10.4176,0.0,0.4124
+solar,CEGA-Lite,"('solar', 0.25)",0.8256,12.6765,0.0,0.5304
+solar,CEGA-Lite,"('solar', 0.5)",0.8258,12.9946,0.0,0.5487
+solar,CEGA-Tiny,"('const', 0.1)",0.8255,12.5094,0.0,0.4822
+solar,CEGA-Tiny,"('const', 0.25)",0.826,15.0882,0.0,0.6018
+solar,CEGA-Tiny,"('const', 0.5)",0.8256,15.7697,0.0,0.621
+solar,CEGA-Tiny,"('solar', 0.1)",0.8251,12.4996,0.0,0.4834
+solar,CEGA-Tiny,"('solar', 0.25)",0.8262,15.1792,0.0,0.6024
+solar,CEGA-Tiny,"('solar', 0.5)",0.8258,15.7332,0.0,0.617
+solar,CEGA-noSoC,"('const', 0.1)",0.8245,12.0095,0.0,0.4623
+solar,CEGA-noSoC,"('const', 0.25)",0.8245,12.0095,0.0,0.4623
+solar,CEGA-noSoC,"('const', 0.5)",0.8245,12.0095,0.0,0.4623
+solar,CEGA-noSoC,"('solar', 0.1)",0.8245,12.0095,0.0,0.4623
+solar,CEGA-noSoC,"('solar', 0.25)",0.8245,12.0095,0.0,0.4623
+solar,CEGA-noSoC,"('solar', 0.5)",0.8245,12.0095,0.0,0.4623
+solar,Online-SGD,"('const', 0.1)",0.8234,24.2286,87.1111,1.0
+solar,Online-SGD,"('const', 0.25)",0.8234,24.2286,0.0,1.0
+solar,Online-SGD,"('const', 0.5)",0.8234,24.2286,0.0,1.0
+solar,Online-SGD,"('solar', 0.1)",0.8234,24.2286,32.2778,1.0
+solar,Online-SGD,"('solar', 0.25)",0.8234,24.2286,0.0,1.0
+solar,Online-SGD,"('solar', 0.5)",0.8234,24.2286,0.0,1.0
+solar,Periodic-Full,"('const', 0.1)",0.8252,108.4148,29.5,0.0
+solar,Periodic-Full,"('const', 0.25)",0.8252,108.4148,27.5556,0.0
+solar,Periodic-Full,"('const', 0.5)",0.8252,108.4148,20.3889,0.0
+solar,Periodic-Full,"('solar', 0.1)",0.8252,108.4148,29.5,0.0
+solar,Periodic-Full,"('solar', 0.25)",0.8252,108.4148,27.5,0.0
+solar,Periodic-Full,"('solar', 0.5)",0.8252,108.4148,21.0,0.0
