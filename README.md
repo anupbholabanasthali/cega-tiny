@@ -3,7 +3,7 @@
 Research data and code for **"CEGA-Tiny: A Confidence-Gated, Energy-Governed Controller for On-Device Learning under Concept Drift (A Trace-Driven Simulation Study)"**, submitted to the *Journal of Systems Architecture*.
 
 - **Archive DOI:** `10.5281/zenodo.XXXXXXX` (placeholder, replace after publishing)
-- **Repository:** `https://github.com/<your-account>/cega-tiny` (placeholder)
+- **Repository:** `https://github.com/anupbholabanasthali/cega-tiny`
 - **Licence:** MIT (see `LICENSE`)
 
 > **Scope.** All energy figures are operation-count model estimates, cross-checked against instruction counts of emulated firmware. No hardware measurement was performed.
