@@ -12,19 +12,19 @@ authors:
     affiliation: "University of Bisha"
   - family-names: Hashem
     given-names: Hythem
+    orcid: "https://orcid.org/0009-0009-1013-1489"
     affiliation: "University of Bisha"
   - family-names: Kaushik
     given-names: Yogita
+    orcid: "https://orcid.org/0009-0003-6823-7274"
     affiliation: "Karnavati University"
   - family-names: Pandey
     given-names: Satish Chandra
     orcid: "https://orcid.org/0000-0002-3813-6726"
     affiliation: "Jaipur National University"
-  - family-names: Goyal
-    given-names: Manish Kumar
-    affiliation: "Vivekananda Global University"
   - family-names: Kumar
     given-names: Manjeet
+    orcid: "https://orcid.org/0000-0003-1271-0475"
     affiliation: "Banasthali Vidyapith"
 license: MIT
 version: "1.0.1"
@@ -44,8 +44,6 @@ preferred-citation:
       given-names: Yogita
     - family-names: Pandey
       given-names: Satish Chandra
-    - family-names: Goyal
-      given-names: Manish Kumar
     - family-names: Kumar
       given-names: Manjeet
   journal: "Journal of Systems Architecture (submitted)"
